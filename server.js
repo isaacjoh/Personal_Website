@@ -5,7 +5,7 @@ var app = express();
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req,res) {
-	res.sendFile(__dirname + '/public/views/SwanCleaners1.html', {
+	res.sendFile(__dirname + '/public/views/index.html', {
 		title: 'Swan Cleaners'
 	});
 });
