@@ -1,0 +1,26 @@
+{
+  "name": "isaacohpersonalwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "express": "^4.13.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacjoh/Personal_Website.git"
+  },
+  "author": "Isaac Oh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacjoh/Personal_Website/issues"
+  },
+  "homepage": "https://github.com/isaacjoh/Personal_Website#readme"
+}
