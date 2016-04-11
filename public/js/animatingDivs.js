@@ -1,5 +1,5 @@
 $(document).ready(function(){
- 
+  
   // hide our element on page load
   $('#aboutMeID').css('opacity', 0);
   $('#projectsID').css('opacity', 0);
