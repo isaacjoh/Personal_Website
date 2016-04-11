@@ -37,7 +37,7 @@
   <script src="./js/animatingDivs.js"></script>
   <script src="./js/smoothForm.js"></script>
   <script src="./js/hoverTransparent.js"></script>
-
+  <script src="./js/submitEmail.js"></script>
   <title>Aspiring Full-Stack Web Developer</title>
 </head>
 
@@ -237,23 +237,23 @@
   </div>
   <div class="row">
     <div id="formBox">
-      <form>
+      <form method="post" id="emailForm" action="mailto:isaacohishere@gmail.com">
         <div class="field name-box">
           <input type="text" id="name" placeholder="Nice to meet you!"/>
           <label for="name">Name</label>
           <span class="ss-icon">&#10004;</span>
         </div>
         <div class="field email-box">
-          <input type="text" id="email" placeholder="name@email.com"/>
-          <label for="email">Email</label>
+          <input type="text" id="company" placeholder="Where do you work?"/>
+          <label for="email">Company</label>
           <span class="ss-icon">&#10004;</span>
         </div>
         <div class="field msg-box">
-          <textarea id="msg" rows="4" placeholder="Your message..."/></textarea>
-          <label for="msg">Msg</label>
+          <textarea id="message" rows="4" placeholder="I'd love to chat!"/></textarea>
+          <label for="message">Message</label>
           <span class="ss-icon">&#10004;</span>
         </div>
-        <input class="button formButtonInput" type="submit" value="Send"/>
+        <input class="button formButtonInput" id="formButtonInputID" type="submit" value="Send Email"/>
       </form>
     </div>
   </div>
@@ -266,7 +266,7 @@
     <div class="footerContent" id="share-buttons">
       <!-- Email -->
       <p>
-        <a href="mailto:isaacohishere@gmail.com?Subject=Contact">
+        <a href="mailto:isaacohishere@gmail.com">
           <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
         </a>
         <!-- Facebook -->
