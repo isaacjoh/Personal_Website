@@ -249,8 +249,8 @@ a:hover, a:link, a:visited, a:active {
 
 .swanCleanersInfo p {
   padding: 10px;
-  font-family: 'Lato';
-  font-size: 1.2em;
+  font-family: 'Muli';
+  font-size: 1em;
   line-height: 200%;
   color: gray;
   letter-spacing: 0.02em;
@@ -551,6 +551,8 @@ p {
 .resumeBody p {
   text-indent: 0px;
   color: gray;
+  font-family: 'Fira Sans';
+  font-size: 0.95em;
 }
 
 .resumeSubHeader {
